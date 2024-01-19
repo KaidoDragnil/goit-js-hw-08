@@ -1,0 +1,31 @@
+.gallery{
+    display: flex;
+        width: 1128px;
+        height: 696px;
+        flex-wrap: wrap;
+        padding: 24px 156px;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 24px;
+        background: #FFF;
+        list-style-type: none;
+}
+.gallery-item,
+.gallery-link{
+    width: 360px;
+    height: 200px;
+}
+.gallery-image{
+    width: 360px;
+        height: 200px;
+        flex-shrink: 0;
+
+}
+.gallery-image:hover{
+    cursor: url('../kursor.svg'), auto;
+    
+transform: scale(1.04);
+}
+.modal-image{
+    background: rgba(46, 47, 66, 0.80);
+}
